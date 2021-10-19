@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anak elemen</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>anak elemen</title>
+        <link rel="stylesheet" href="anak.css" </head>
+    
+    <body>
+        <h1>Anak-anak Elemen</h1>
+    
+        <table>
+            <tr>
+                <th class="kolum_bil">Bil</th>
+                <th>Nama</th>
+            </tr>
+    
+            <tr class="tajuk">
+                <td colspan="2">KATEGORI : DEWASA</td>
+            </tr>
+    
+            <tr>
+                <td>1.</td>
+                <td>Achik</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Ah Boy</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Ahmad</td>
+            </tr>
+    
+            <tr class="tajuk">
+                <td colspan="2">KATEGORI : REMAJA</td>
+            </tr>
+    
+            <tr>
+                <td>1.</td>
+                <td>Siti</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Aminah</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Maimunah</td>
+            </tr>
+    
+        </table>
+    
+        <form action="simpan.php" method="post">
+            <label for="nama">NAMA</label>
+            <input type="text" name="nama" id="nama">
+    
+            <label for="katogeri">KATEGORI</label>
+            <select name="katogeri" id="katogeri">
+                <option value="D">DEWASA</option>
+                <option value="R">REMAJA</option>
+            </select>
+    
+            <button type="submit">SUBMIT</button>
+    
+        </form>
+    </body>
+    
+    </html> 
